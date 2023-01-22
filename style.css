@@ -195,3 +195,27 @@
 .place__pharagraph:first-child {
   padding-bottom: 26px;
 }
+
+.place__pharagraph:last-child {
+  padding-bottom: 0px;
+}
+
+.cover {
+  box-sizing: border-box;
+}
+
+.cover__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+}
+
+.cover__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
