@@ -120,9 +120,78 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 16px;
-
 }
 
 .photo-grid__item {
   width: 100%;
+}
+
+.places {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 92px 148px;
+}
+
+.place {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 48px 40px;
+  grid-auto-flow: dense;
+  padding-bottom: 80px;
+}
+
+.place:last-child {
+  padding-bottom: 0;
+}
+
+.place__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  margin: 0;
+}
+
+.place__image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  grid-column: 1 / 2;
+}
+
+.place__website {
+  align-self: end;
+}
+
+.place__url-heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  color: #aaaaaa;
+  margin: 0;
+  padding-bottom: 12px;
+}
+
+.place__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.place__pharagraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  margin: 0;
+}
+
+.place__pharagraph:first-child {
+  padding-bottom: 26px;
 }
