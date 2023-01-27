@@ -1,0 +1,18 @@
+.cover {
+  box-sizing: border-box;
+  position: relative;
+  padding: 0 44px 92px;
+}
+
+
+@media (max-width: 1279px) {
+  .cover {
+    padding: 0 0 92px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cover {
+    padding: 0;
+  }
+}
