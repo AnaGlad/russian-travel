@@ -11,12 +11,7 @@
   top: calc(50% - 152px - 16px);
   transform: translate(-50%, 0);
   left: 50%;
-}
-
-.cover__title:hover .cover__background {
-  opacity: 0.2;
-  background: #2a2c2f;
-
+  pointer-events: none;
 }
 
 @media (max-width: 767px) {
