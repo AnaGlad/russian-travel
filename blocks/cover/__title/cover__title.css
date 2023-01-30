@@ -4,21 +4,15 @@
   font-size: 72px;
   line-height: 76px;
   text-align: center;
-  position: absolute;
-  width: 560px;
-  margin: 0;
+  margin: auto auto 0;
   color: #ffffff;
-  top: calc(50% - 152px - 16px);
-  transform: translate(-50%, 0);
-  left: 50%;
   pointer-events: none;
+  max-width: 560px;
 }
 
 @media (max-width: 767px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
-    width: 250px;
-    top: calc(50% - 70px);
   }
 }

@@ -1,12 +1,13 @@
 .header__lang-link {
   color: #ffffff;
-  margin-left: auto;
+  margin-right: 18px;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
   text-align: right;
   padding: 18px 0 6px;
+  text-decoration: none;
 }
 
 @media (max-width: 767px) {
@@ -18,6 +19,5 @@
 }
 
 .header__lang-link:last-child {
-  margin-left: 18px;
-  text-decoration: none;
+  margin-right: 0;
 }
